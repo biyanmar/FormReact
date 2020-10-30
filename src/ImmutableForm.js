@@ -17,10 +17,10 @@ const ImmutableForm = props => {
   return (
     <form onSubmit={handleSubmit}>
       <Field
-        name="username"
+        name="Nama User"
         type="text"
         component={renderField}
-        label="Username"
+        label="Nama User"
       />
       <Field name="email" type="email" component={renderField} label="Email" />
       <Field name="age" type="number" component={renderField} label="Age" />
