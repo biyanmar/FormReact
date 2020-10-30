@@ -19,6 +19,6 @@ export const getResponseMessage = (res, defaultMessage = null) => {
 export const numberWithCommas = numString => (numString ? numString.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') : '-');
 
 export const isValidEmail = (email) => {
-    const regex = /^[a-zA-Z0-9_.+-]+@(?:(?:[a-zA-Z0-9-]+\.)?[a-zA-Z]+\.)?(aia)\.com$/i;
+    const regex = /^[a-zA-Z0-9_.+-]+@(?:(?:[a-zA-Z0-9-]+\.)?[a-zA-Z]+\.)?()\.com$/i;
     return regex.test(email);
 };

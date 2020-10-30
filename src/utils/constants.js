@@ -31,16 +31,3 @@ export const KEYCLOAK_CONFIG = {
   url: process.env.GATSBY_KEYCLOAK_URL,
   clientId: process.env.GATSBY_KEYCLOAK_CLIENT_ID,
 };
-
-export const ALLOWED_ACCOUNTS = ['iRecruit-Leader', 'Regional-Manager', 'Director-of-Agency'];
-
-export const ACCOUNT_TYPE = {
-  LEADER: 'iRecruit-Leader',
-  RM: 'Regional-Manager',
-  DOA: 'Director-of-Agency',
-};
-
-export const BASE_API = `${process.env.GATSBY_BASE_URL}/api`;
-
-export const ASSESSMENT_STATUS = {
-};
